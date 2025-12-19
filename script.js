@@ -64,7 +64,7 @@ uploadBtn.addEventListener('click', async () => {
 
     // 验证文件大小
     if (file.size > MAX_FILE_SIZE) {
-        fileError.textContent = `文件大小超过20MB限制（当前${(file.size/1024/1024).toFixed(2)}MB）！`;
+        fileError.textContent = `文件大小超过80MB限制（当前${(file.size/1024/1024).toFixed(2)}MB）！`;
         return;
     }
 
