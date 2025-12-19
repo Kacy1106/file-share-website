@@ -3,7 +3,7 @@ let githubToken = '';
 const REPO_OWNER = 'Kacy1106'; // 替换成你的GitHub账号名
 const REPO_NAME = 'file-share-website'; // 替换成你的仓库名
 const UPLOAD_FOLDER = 'uploads/';
-const MAX_FILE_SIZE = 20 * 1024 * 1024; // 20MB
+const MAX_FILE_SIZE = 80 * 1024 * 1024; // 80MB
 
 // DOM元素
 const loginBtn = document.getElementById('login-btn');
